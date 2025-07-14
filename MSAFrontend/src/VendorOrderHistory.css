@@ -1,0 +1,58 @@
+.order-history-container {
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .order-history-table th,
+  .order-history-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .order-history-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .order-history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-history-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .status.completed {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .status.pending {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .status.failed {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

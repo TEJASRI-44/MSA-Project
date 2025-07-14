@@ -1,0 +1,122 @@
+/* orders.css */
+.orders {
+  padding: 30px;
+  background: linear-gradient(to bottom right, #9fc0d8, #406583); /* Soft blue gradient background */
+  /* border-radius: 10px; */
+}
+
+.orders-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.orders-items {
+  display: grid;
+  
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 30px; /* Space between the cards */
+  max-width: 1400px; /* Added max-width for a more contained layout */
+  margin: 0 auto; /* Centers the container */
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to top left, #9b9b9b, #f8f5f5); /* Gradient background for the card */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #b9b5b5;
+  height: 200px;
+  margin: 10px 0; /* Added margin between cards */
+}
+
+.order-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.order-item-image {
+  width: 40%; /* Increased image size to 40% of the card */
+  height: 100%; /* Ensure image fills the height of the card */
+  object-fit: cover; /* Ensures image covers the available space without distorting */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-right: 20px; /* Added margin to create gap between image and text */
+}
+
+.order-item:hover .order-item-image {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.order-item-details {
+  display: flex;
+  flex-direction: column;
+  width: 60%; /* Adjusted width for text section */
+  padding: 10px;
+}
+
+.order-item-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2a9d8f; /* Attractive green color */
+  transition: color 0.3s ease;
+}
+
+.order-item-details h3:hover {
+  color: #1f7a63; /* Darker green on hover */
+}
+
+.order-item-details p {
+  font-size: 16px;
+  margin: 8px 0;
+  /* color: #555; Darker text for better contrast */
+}
+
+.price {
+  font-weight: bold;
+  color: #df2f10; /* Tomato red for price */
+  font-size: 18px;
+}
+
+.order-item-details p:hover {
+  color: #333; /* Darker text color on hover for better focus */
+}
+
+.empty-orders {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .orders-items {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+  }
+
+  .order-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .order-item-image {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .order-item-details {
+    width: 100%;
+    margin-left: 0;
+  }
+}

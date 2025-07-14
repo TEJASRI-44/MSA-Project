@@ -1,0 +1,79 @@
+.medicines-container {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .medicines-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .medicines-table th,
+  .medicines-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .medicines-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .medicine-row {
+    transition: transform 0.2s;
+  }
+  
+  .medicine-row:hover {
+    transform: scale(1.02);
+  }
+  
+  .medicine-image {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .order-stock-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .order-stock-button:hover {
+    background-color: #0056b3;
+  }
+  

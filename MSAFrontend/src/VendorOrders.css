@@ -1,0 +1,73 @@
+.vendor-orders-container {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .vendor-id-input {
+    margin-bottom: 20px;
+  }
+  
+  .vendor-id-input input {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .set-vendor-id-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .set-vendor-id-button:hover {
+    background-color: #218838;
+  }
+  
+  .vendor-orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .vendor-orders-table th,
+  .vendor-orders-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .vendor-orders-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .order-row {
+    transition: transform 0.2s;
+    color: white; /* Text color to contrast the background */
+  }
+  
+  .order-row:hover {
+    transform: scale(1.02);
+  }
+  
+  .refill-orders-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .refill-orders-button:hover {
+    background-color: #0056b3;
+  }
+  

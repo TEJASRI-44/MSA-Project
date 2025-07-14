@@ -1,0 +1,19 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    background-color: transparent; /* Default color */
+    box-shadow: none; /* No shadow */
+  }
+  
+  .navbar.scrolled {
+    background-color: #333; /* Background color when scrolled */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow when scrolled */
+  }
+
+  .logo-tex{
+    font-size: 40px;
+  }
+  

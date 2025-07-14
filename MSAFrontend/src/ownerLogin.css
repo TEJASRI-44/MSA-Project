@@ -1,0 +1,68 @@
+.owner-login {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255,0.18);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0px 30px rgba(227, 228,237, 0.37);
+  backdrop-filter: blur(30px);
+  animation: pulse 1.5s ;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .owner-login h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .wlogin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wlogin-form label {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .wlogin-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+.owner-container{
+  background-image: url('https://img.freepik.com/premium-photo/blurred-background-pharmacy-store-pharmacy-with-many-bottles-medicine-including-medicine_416749-711.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  

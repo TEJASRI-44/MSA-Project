@@ -1,0 +1,127 @@
+.vendor-back{
+  background-image: url('https://img.freepik.com/premium-photo/blurred-background-pharmacy-store-pharmacy-with-many-bottles-medicine-including-medicine_416749-711.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 120px;
+
+}
+
+ .pharm-back{
+  background-image: url('https://png.pngtree.com/background/20231031/original/pngtree-medical-grade-drug-manufacturing-on-blue-background-3d-rendered-medicine-picture-image_5817966.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  
+  .pharma_vend-container {
+    width: 320px;
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    width: 400px;
+    margin:  auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255,0.18);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0px 30px rgba(227, 228,237, 0.37);
+    backdrop-filter: blur(30px);
+    height: 500px;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out forwards;
+    
+    
+   
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    position: relative;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  h2::after {
+    content: "";
+    width: 0; /* Starting width for slide animation */
+    height: 4px;
+    background-color: #00b4d8;
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 2px;
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60px;
+    }
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 20px;
+    height: 390px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+    margin-top: 50px;
+  }
+  
+  .login-form input:focus {
+    border-color: #00b4d8;
+    box-shadow: 0 0 8px rgba(0, 180, 216, 0.2);
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #00b4d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #0077b6;
+    transform: translateY(-2px);
+  }
+  
+  .login-form button:active {
+    transform: translateY(1px);
+  }
+  

@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Main Content */
+main {
+
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  width: 50px;
+  border-radius: 4px;
+}
+
+table button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Update Button */
+table button:nth-child(1) {
+  background-color: #28a745;
+  color: white;
+}
+
+table button:nth-child(1):hover {
+  background-color: #218838;
+}
+
+/* Delete Button */
+table button:nth-child(2) {
+  background-color: #dc3545;
+  color: white;
+}
+
+table button:nth-child(2):hover {
+  background-color: #c82333;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  form div {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+.owner-home-button{
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;  
+  align-content: end;
+  color: white;
+  margin-top: 10px;
+  margin-left: 90%;
+}

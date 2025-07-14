@@ -1,0 +1,102 @@
+.payment-check-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.payment-title {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-check {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-check p {
+  margin: 5px 0;
+  color: #444;
+  line-height: 1.4;
+}
+
+.medicine-list {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.medicine-details {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.medicine-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.total-amount {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #000;
+  font-weight: bold;
+}
+
+strong {
+  color: #333;
+}
+
+.payment-check-container {
+  padding: 20px;
+}
+
+.create-payment-button, .print-cheque-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-cheque-button {
+  background-color: #28a745;
+}
+
+.cheque-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  /* background-color: #f9f9f9; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+/* 
+th {
+  background-color: #f2f2f2;
+} */
+
+
+

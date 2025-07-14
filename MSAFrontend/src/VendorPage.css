@@ -1,0 +1,61 @@
+.vendor-page-container {
+ 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+ 
+   
+  }
+  .vendor-page-back{
+    background-image: url('https://img.freepik.com/free-photo/high-angle-shopping-cart-with-pill-foils-copy-space_23-2148533500.jpg?t=st=1731394770~exp=1731398370~hmac=5093e98c515dbc07095f48eda5501c9c31bb8b6074917686b1f070e353d5dd26&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+  }
+  .vendor-page-title {
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 30px;
+  }
+  
+  .vendor-cards-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .vendor-card {
+    background-color: #ffffff;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .vendor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  

@@ -1,0 +1,128 @@
+/* Basic footer styling */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #ffdd57;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 5px 0;
+  color: #bfbfbf;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 8px 0;
+}
+
+.footer a {
+  color: #bfbfbf;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffdd57;
+  text-decoration: underline;
+}
+
+/* Footer sections */
+.footer-info,
+.footer-links,
+.footer-policy,
+.footer-social {
+  flex: 1;
+  min-width: 220px;
+  margin: 20px;
+}
+
+.footer-info p {
+  animation: fade-in 1s ease-in-out;
+}
+
+.footer-links ul,
+.footer-policy ul {
+  margin-top: 1rem;
+}
+
+.footer-links ul li,
+.footer-policy ul li {
+  animation: slide-in 0.8s ease forwards;
+}
+
+.footer-links ul li:nth-child(1) { animation-delay: 0.1s; }
+.footer-links ul li:nth-child(2) { animation-delay: 0.2s; }
+.footer-links ul li:nth-child(3) { animation-delay: 0.3s; }
+.footer-links ul li:nth-child(4) { animation-delay: 0.4s; }
+
+/* Social Icons */
+.footer-social .social-icons a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+  color: #ffdd57;
+  transform: scale(1.1);
+}
+
+/* Payment Icons */
+.payment-icons {
+  margin-top: 1rem;
+}
+
+.payment-icons svg {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #ffdd57;
+  transition: transform 0.3s ease;
+}
+
+.payment-icons svg:hover {
+  transform: scale(1.2);
+}
+
+/* Animation Keyframes */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-links,
+  .footer-policy,
+  .footer-social {
+    margin: 10px 0;
+  }
+}

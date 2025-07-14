@@ -1,0 +1,35 @@
+/* shipping.css */
+.shipping-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .shipping-form label {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .shipping-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  

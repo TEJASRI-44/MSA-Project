@@ -1,0 +1,71 @@
+.register-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255,0.18);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0px 30px rgba(227, 228,237, 0.37);
+  backdrop-filter: blur(30px);
+    
+  }
+  .Container-register{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240408/pngtree-composition-of-medicine-bottles-and-pills-with-pharmacy-store-shelves-background-image_15651656.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  .account{
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .register-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 15px;
+    
+
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }

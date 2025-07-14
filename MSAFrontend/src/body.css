@@ -1,0 +1,144 @@
+/* Body styling */
+.body {
+  padding: 2rem;
+  background-color: #e8f1fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Search bar styling */
+.body-search-cart {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.body-search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border: 2px solid #00aaff;
+  border-radius: 25px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.body-search-input:focus {
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+}
+
+/* Card container styling */
+.Card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  
+}
+
+/* Card styling */
+.Card {
+  width: 300px;
+  padding: 5px;
+  /* opacity: 0.7; */
+  background: #fff7f7;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(24, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* Card content */
+.card-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+  font-family: "Lucida Console","Courier New",monospace;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Card buttons */
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cart-button,
+.buy-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-button {
+  background-color: #57e478;
+  color: #fff;
+  
+}
+
+.cart-button:hover {
+  background-color: #06c730;
+  transform: scale(1.05);
+  text-shadow: 0 0 3px;
+}
+
+.buy-button {
+  background-color: #f7d162;
+  color: #212529;
+ 
+}
+
+.buy-button:hover {
+  background-color: #f5bd17;
+  transform: scale(1.05);
+  text-shadow: 0 0 3px;
+}
+
+/* No results message */
+.no-results {
+  font-size: 1.25rem;
+  color: #777;
+  margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+.pharma_vend-container{
+    background-image: url('https://img.freepik.com/premium-photo/blurred-background-pharmacy-store-pharmacy-with-many-bottles-medicine-including-medicine_416749-711.jpg?semt=ais_hybrid');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }  

@@ -1,0 +1,75 @@
+/* Center container */
+.roles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .roles-container{
+    background-image: url("https://img.freepik.com/free-photo/pharmacy-foreground-with-counter-blurred-backdrop-medicine-shelves-emphasizing-recycled-plastic-bottle-usage_91128-3490.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+  
+  }
+  /* Title styling */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Card grid layout */
+  .roles-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Card styling */
+  .role-card {
+    width: 180px;
+    height: 200px;
+    /* background: #ffffff; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0px 30px rgba(227, 228,237, 0.37);
+    backdrop-filter: blur(30px);
+  }
+  
+  /* Unique card colors */
+  .owner { 
+    background-color: #ff7f50; 
+    backdrop-filter: blur(30px);
+  }
+  .customer { background-color: #8a2be2; }
+  .vendor { background-color: #3cb371; }
+  .pharmacist { background-color: #1e90ff; }
+  
+  /* Card text styling */
+  .role-card h2 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+  /* Animation on hover */
+  .role-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  

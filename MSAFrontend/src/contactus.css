@@ -1,0 +1,151 @@
+
+/* Main Container */
+.contact-us-container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: slideUp 3s ease;
+  margin: 20px 70px;
+
+}
+
+/* Slide-Up Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Contact Info Section */
+.contact-info {
+  flex: 1;
+  background-color: #2a9d8f;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  animation: fadeIn 1.2s ease;
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  animation: fadeIn 1.5s ease;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+  animation: popIn 0.8s ease;
+}
+
+/* Form Container */
+.form-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  color: #2a9d8f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input,
+.email-input,
+.comments-input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2a9d8f;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button Styles */
+button {
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #21867a;
+  transform: translateY(-3px);
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
